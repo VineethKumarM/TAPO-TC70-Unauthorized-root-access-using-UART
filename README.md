@@ -4,7 +4,7 @@
 
 ## How to gain the root access
 - Solder the UART pins on the camera circuit board to a *UART to USB* cable
-- Find the usb port address using the `dmesg` command
+- Find the usb port address using the `sudo dmesg` command
 - Use the picocom command to start an interactive shell with access to bootlog
 - Ex: `sudo picocom /dev/ttyUSBx -b 115200` , (x : {0,1,2..} check dmesg output to
 find this)
