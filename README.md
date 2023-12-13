@@ -14,6 +14,6 @@ find this)
 - Change the boot configuration using(add/modify init=/bin/sh to the bootargs env
 var): `setenv bootargs console=ttyS1,115200n8 mem=45M@0x0 rmem=19M@0x2d00000
 root=/dev/mtdblock6 rootfstype=squashfs spdev=/dev/mtdblock7 noinitrd init=/bin/sh`
-- Now reboot using bootd command or save the configuration and restart the camera
+- Now reboot using boot command. 
 - The camera boots directly to the /bin/sh shell giving root access
 - Now you can access the complete file system of the camera and can also dump it using a sd card
