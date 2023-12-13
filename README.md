@@ -1,6 +1,7 @@
 # TAPO TC70 & C200 Unauthorized root access using UART.
 ### Product : TPLINK TAPO TC70 V3.0 , TAPO C200 V3.0 wifi cameras
 ### Firmware version: 1.3.4
+### CVE update: CVE ID reserved 
 
 ## How to gain the root access
 - Solder the UART pins on the camera circuit board to a *UART to USB* cable
